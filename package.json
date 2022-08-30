@@ -1,0 +1,16 @@
+{
+  "name": "wpp-translator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.16.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/axios": "^0.14.0"
+  }
+}
