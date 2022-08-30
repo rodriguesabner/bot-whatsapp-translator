@@ -28,3 +28,7 @@ yarn start
 ```
 
 Abra o seu Whatsapp Escaneie o código QR que será mostrado no console e pronto, só brincar um pouco de tradutor.
+
+Screenshot:
+
+![image](https://user-images.githubusercontent.com/40338524/187508728-8d433200-8880-4f07-94cf-10e115e6a832.png)
