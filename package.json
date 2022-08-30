@@ -4,13 +4,18 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "@wppconnect-team/wppconnect": "^1.16.1",
     "axios": "^0.27.2",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/axios": "^0.14.0"
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0"
   }
 }
