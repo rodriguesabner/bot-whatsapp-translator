@@ -1,0 +1,7 @@
+{
+  "ignore": [
+    "__test__",
+    "tokens",
+    "files"
+  ]
+}
