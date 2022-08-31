@@ -1,12 +1,14 @@
 import 'dotenv/config';
 import {create} from '@wppconnect-team/wppconnect';
-import Translator from "./src/translator.js";
+import BotService from "./src/services/bot.service.js";
 
-const translator = new Translator();
+const translator = new BotService();
 
 create({
     session: 'tradutor',
     poweredBy: 'Abner Rodrigues',
+    deviceName: 'Tradutor',
+    disableWelcome: true,
 })
     .then((client) => translator.startBot(client))
     .catch((error) => console.log(error));

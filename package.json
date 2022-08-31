@@ -1,6 +1,11 @@
 {
   "name": "wpp-translator",
-  "version": "1.0.0",
+  "version": "0.0.2",
+  "author": {
+    "name": "Abner Rodrigues",
+    "email": "abnerodrigs@gmail.com",
+    "url": "https://github.com/rodriguesabner"
+  },
   "main": "index.js",
   "license": "MIT",
   "type": "module",
