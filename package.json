@@ -1,6 +1,6 @@
 {
   "name": "wpp-translator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Abner Rodrigues",
     "email": "abnerodrigs@gmail.com",
@@ -17,6 +17,7 @@
     "@wppconnect-team/wppconnect": "^1.16.1",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
+    "ibm-watson": "^7.1.1",
     "nodemon": "^2.0.19"
   },
   "devDependencies": {

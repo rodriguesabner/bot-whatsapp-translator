@@ -4,9 +4,10 @@ Bot que traduz a mensagem em tempo real no Whatsapp.
 
 ## Como usar
 
-Crie uma conta no rapidapi e se inscreva no freemium da api da Microsoft, depois disso pegue o **X-RapidAPI-Key** que eles vão fornecer
+Crie/Entre em uma conta na IBM Watson, crie um serviço de Translation e Speech to Text (links abaixo). Pegue a API Key e a url que eles vão fornecer e insira nos respectivos campos do seu .env  
 
-https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-translator-text/
+https://cloud.ibm.com/catalog/services/text-to-speech
+https://cloud.ibm.com/catalog/services/language-translator
 
 ## Instalação
 
@@ -17,7 +18,7 @@ yarn
 ```
 
 ## Configuração
-Renomeie o arquivo *.env.template* para *.env*, e coloque a sua API_KEY que vc recebeu.
+Renomeie o arquivo *.env.template* para *.env*.
 
 ## Execução
 
@@ -32,6 +33,9 @@ Abra o seu Whatsapp Escaneie o código QR que será mostrado no console e pronto
 Screenshot:
 
 ![image](https://user-images.githubusercontent.com/40338524/187508728-8d433200-8880-4f07-94cf-10e115e6a832.png)
+
+### update - envio de áudio
+![image](https://user-images.githubusercontent.com/40338524/188283660-b8bbd4d3-58e7-460b-ae4e-556ef4f1d67e.png)
 
 ## Contribuidores
 

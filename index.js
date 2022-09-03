@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import 'dotenv/config.js';
 import {create} from '@wppconnect-team/wppconnect';
 import BotService from "./src/services/bot.service.js";
 
